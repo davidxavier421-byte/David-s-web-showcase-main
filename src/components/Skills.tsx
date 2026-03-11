@@ -9,6 +9,7 @@ const skills: { category: string; icon: LucideIcon; items: { name: string; level
     { name: "CSS3", level: 85 },
     { name: "JavaScript", level: 80 },
     { name: "Bootstrap", level: 85 },
+    { name: "React", level: 80 },
   ]},
   { category: "Backend", icon: Server, items: [
     { name: "Node.js", level: 75 },
