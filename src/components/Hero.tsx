@@ -58,6 +58,15 @@ const Hero = () => {
                   <Send className="mr-2 h-4 w-4" /> Contact Me
                 </a>
               </Button>
+              <Button variant="heroOutline" size="lg" asChild>
+  <a 
+    href="https://wa.me/917845269756?text=Hello%20David%20I%20saw%20your%20portfolio"
+    target="_blank"
+    rel="noopener noreferrer"
+  >
+    <Send className="mr-2 h-4 w-4" /> WhatsApp
+  </a>
+</Button>
             </div>
 
             {/* Quick stats */}
