@@ -47,8 +47,8 @@ const Contact = () => {
   };
 
   const contactInfo = [
-    { icon: Mail, label: "Email", value: "davidxaviera@example.com" },
-    { icon: Phone, label: "Phone", value: "+91 98765 43210" },
+    { icon: Mail, label: "Email", value: "davidxavier621@gmail.com" },
+    { icon: Phone, label: "Phone", value: "+91 78452 69756" },
     { icon: MapPin, label: "Location", value: "Trichy, Tamil Nadu, India" },
   ];
 
