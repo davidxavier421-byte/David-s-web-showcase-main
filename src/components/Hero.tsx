@@ -1,5 +1,5 @@
 import { motion } from "framer-motion";
-import { ArrowDown, Send, Sparkles } from "lucide-react";
+import { ArrowDown, Send, Sparkles, Download } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import profilePhoto from "@/assets/profile-photo.jpg";
 
@@ -58,15 +58,25 @@ const Hero = () => {
                   <Send className="mr-2 h-4 w-4" /> Contact Me
                 </a>
               </Button>
+
               <Button variant="heroOutline" size="lg" asChild>
-  <a 
-    href="https://wa.me/917845269756?text=Hello%20David%20I%20saw%20your%20portfolio"
-    target="_blank"
-    rel="noopener noreferrer"
-  >
-    <Send className="mr-2 h-4 w-4" /> WhatsApp
-  </a>
-</Button>
+                <a
+                  href="https://wa.me/917845269756?text=Hello%20David%20I%20saw%20your%20portfolio"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <Send className="mr-2 h-4 w-4" /> WhatsApp
+                </a>
+              </Button>
+              <Button variant="hero" size="lg" className="shadow-glow" asChild>
+                <a
+                  href="https://david-resume-pdf-20260311-180430-0000.tiiny.site"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <Download className="mr-2 h-4 w-4" /> Download Resume
+                </a>
+              </Button>
             </div>
 
             {/* Quick stats */}
