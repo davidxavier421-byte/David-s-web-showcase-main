@@ -32,6 +32,20 @@ const projects = [
     accent: "from-indigo-500 to-blue-400",
     number: "02",
   },
+  {
+    title: "DXplore – Travel Agency Web App",
+    type: "Personal Project",
+    description:
+      "A fully responsive travel agency web app built with React.js + Vite and Tailwind CSS, featuring 30+ curated tour packages across India and the world. Includes a Standard/Luxury pricing toggle, direct WhatsApp Business API integration for instant booking inquiries, and smooth page transitions — no backend required.",
+    tech: ["React.js", "Vite", "Tailwind CSS", "WhatsApp API"],
+    role: "Full Stack Developer",
+    roleDetail: "Designed and built the entire application independently — UI, routing, package data, pricing toggle, and WhatsApp integration.",
+    liveUrl: "https://dxplore.vercel.app/",
+    githubUrl: "https://github.com/davidxavier421-byte",
+    gradient: "from-orange-500/10 to-amber-500/10",
+    accent: "from-orange-500 to-amber-400",
+    number: "03",
+  },
 ];
 
 const Projects = () => {
