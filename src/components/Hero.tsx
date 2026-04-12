@@ -186,9 +186,9 @@ const Hero = () => {
               {/* Stats */}
               <div className="flex items-center gap-6">
                 {[
-                  { value: "2+", label: "Projects" },
+                  { value: "4+", label: "Projects" },
                   { value: "1", label: "Internship" },
-                  { value: "10+", label: "Skills" },
+                  { value: "13+", label: "Skills" },
                 ].map((s) => (
                   <div key={s.label} className="text-center lg:text-left">
                     <p className="font-heading text-xl font-bold text-gradient leading-none">{s.value}</p>
