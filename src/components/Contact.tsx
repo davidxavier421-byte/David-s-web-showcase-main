@@ -150,6 +150,31 @@ const Contact = () => {
                 ))}
               </div>
             </motion.div>
+
+            {/* Quick contact buttons */}
+            <motion.div
+              initial={{ opacity: 0, y: 10 }}
+              animate={inView ? { opacity: 1, y: 0 } : {}}
+              transition={{ delay: 0.7 }}
+              className="grid grid-cols-2 gap-3"
+            >
+              <a
+                href="https://wa.me/917845269756?text=Hello%20David%20I%20saw%20your%20portfolio"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="flex items-center justify-center gap-2 h-11 rounded-xl bg-green-500/10 border border-green-500/20 text-green-600 hover:bg-green-500/20 hover:border-green-500/40 font-semibold text-sm transition-all duration-300 hover:-translate-y-0.5"
+              >
+                <MessageCircle className="h-4 w-4" />
+                WhatsApp
+              </a>
+              <a
+                href="mailto:davidxavier621@gmail.com"
+                className="flex items-center justify-center gap-2 h-11 rounded-xl bg-primary/10 border border-primary/20 text-primary hover:bg-primary/20 hover:border-primary/40 font-semibold text-sm transition-all duration-300 hover:-translate-y-0.5"
+              >
+                <Mail className="h-4 w-4" />
+                Email Me
+              </a>
+            </motion.div>
           </motion.div>
 
           {/* RIGHT: Form */}
