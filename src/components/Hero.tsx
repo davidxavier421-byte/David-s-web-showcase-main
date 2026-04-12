@@ -226,7 +226,7 @@ const Hero = () => {
               </div>
 
               {/* Floating info cards */}
-              <motion.div
+              {/* <motion.div
                 initial={{ opacity: 0, x: -20 }}
                 animate={{ opacity: 1, x: 0 }}
                 transition={{ delay: 1, type: "spring" }}
@@ -234,7 +234,7 @@ const Hero = () => {
               >
                 <p className="text-xs text-muted-foreground">Currently studying</p>
                 <p className="text-sm font-semibold text-foreground">M.Sc. CS</p>
-              </motion.div>
+              </motion.div> */}
 
               <motion.div
                 initial={{ opacity: 0, x: 20 }}
