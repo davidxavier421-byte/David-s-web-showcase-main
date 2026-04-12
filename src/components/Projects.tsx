@@ -5,34 +5,6 @@ import { Badge } from "@/components/ui/badge";
 
 const projects = [
   {
-    title: "Real Estate Management System",
-    type: "Personal Project",
-    description:
-      "A fully dynamic real estate web application featuring an admin panel for managing banners, properties, images, pricing, and features with complete CRUD functionality.",
-    tech: ["HTML", "CSS", "Bootstrap", "JavaScript", "Node.js", "Express.js", "MySQL"],
-    role: "Full Stack Developer",
-    roleDetail: "Designed and developed the complete application from frontend UI to backend APIs and database management.",
-    liveUrl: null,
-    githubUrl: "https://github.com/davidxavier421-byte",
-    gradient: "from-blue-500/10 to-cyan-500/10",
-    accent: "from-blue-500 to-cyan-400",
-    number: "01",
-  },
-  {
-    title: "BlessaTexports – Textile Website",
-    type: "Client Project",
-    description:
-      "A static textile website delivered to a real client with responsive frontend design and backend email inquiry handling for customer communication.",
-    tech: ["HTML", "CSS", "JavaScript", "Bootstrap", "Node.js", "Express.js", "MySQL"],
-    role: "Full Stack Developer",
-    roleDetail: "Built the entire website independently, including responsive design and backend email integration.",
-    liveUrl: null,
-    githubUrl: "https://github.com/davidxavier421-byte",
-    gradient: "from-indigo-500/10 to-blue-500/10",
-    accent: "from-indigo-500 to-blue-400",
-    number: "02",
-  },
-  {
     title: "DXplore – Travel Agency Web App",
     type: "Personal Project",
     description:
@@ -44,8 +16,52 @@ const projects = [
     githubUrl: "https://github.com/davidxavier421-byte",
     gradient: "from-orange-500/10 to-amber-500/10",
     accent: "from-orange-500 to-amber-400",
+    number: "01",
+  },
+    {
+    title: "D Ai — Neural AI Chatbot",
+    type: "Personal Project",
+    description:
+      "A full-stack AI chatbot web app built with React, TypeScript, and Node.js, powered by Google Gemini. Features user authentication with JWT, persistent chat history, voice input & text-to-speech, and a fully responsive design for mobile and desktop. Built and deployed independently on Render.",
+    tech: ["React 19", "TypeScript", "Node.js", "Express", "Tailwind CSS", "Google Gemini API", "JWT Auth", "Vite"],
+    role: "Full Stack Developer",
+    roleDetail: "Designed and built the entire application independently — UI, backend API, authentication, Gemini integration, voice I/O, and deployment.",
+    liveUrl: "https://d-ai-1.onrender.com",
+    githubUrl: "https://github.com/davidxavier421-byte",
+    gradient: "from-violet-500/10 to-purple-500/10",
+    accent: "from-violet-500 to-purple-400",
+    number: "02",
+  },
+  {
+    title: "BlessaTexports – Textile Website",
+    type: "Client Project",
+    description:
+      "A static textile website delivered to a real client with responsive frontend design and backend email inquiry handling for customer communication.",
+    tech: ["HTML", "CSS", "JavaScript", "Bootstrap", "Node.js", "Express.js", "MySQL"],
+    role: "Full Stack Developer",
+    roleDetail: "During Internship at Freshora Digital Technologies Built the entire website independently, including responsive design and backend email integration.",
+    liveUrl: "https://www.blessatexports.com/",
+    githubUrl: "https://github.com/davidxavier421-byte",
+    gradient: "from-indigo-500/10 to-blue-500/10",
+    accent: "from-indigo-500 to-blue-400",
     number: "03",
   },
+  {
+    title: "Real Estate Management System",
+    type: "Personal Project",
+    description:
+      "A fully dynamic real estate web application featuring an admin panel for managing banners, properties, images, pricing, and features with complete CRUD functionality.",
+    tech: ["HTML", "CSS", "Bootstrap", "JavaScript", "Node.js", "Express.js", "MySQL"],
+    role: "Full Stack Developer",
+    roleDetail: "Designed and developed the complete application from frontend UI to backend APIs and database management.",
+    liveUrl: null,
+    githubUrl: "https://github.com/davidxavier421-byte",
+    gradient: "from-blue-500/10 to-cyan-500/10",
+    accent: "from-blue-500 to-cyan-400",
+    number: "04",
+  },
+  
+  
 ];
 
 const Projects = () => {
@@ -83,48 +99,67 @@ const Projects = () => {
               transition={{ duration: 0.6, delay: i * 0.15 }}
               className="group glass-card rounded-2xl overflow-hidden hover:card-shadow-hover hover:-translate-y-2 transition-all duration-500"
             >
-              {/* Visual header */}
-              <div className={`relative h-40 bg-gradient-to-br ${project.gradient} flex items-center justify-center overflow-hidden`}>
-                {/* Grid pattern */}
-                <div className="absolute inset-0 opacity-30"
-                  style={{
-                    backgroundImage: "linear-gradient(hsl(221 83% 53% / 0.1) 1px, transparent 1px), linear-gradient(90deg, hsl(221 83% 53% / 0.1) 1px, transparent 1px)",
-                    backgroundSize: "24px 24px"
-                  }}
-                />
-                {/* Big project number */}
-                <span className={`font-heading text-8xl font-black bg-gradient-to-br ${project.accent} bg-clip-text text-transparent opacity-20 select-none`}>
-                  {project.number}
-                </span>
-                {/* Icon */}
-                <div className={`absolute bottom-4 left-4 w-10 h-10 rounded-xl bg-gradient-to-br ${project.accent} flex items-center justify-center shadow-md`}>
-                  <FolderGit2 className="h-5 w-5 text-white" />
+              {/* Browser preview header */}
+              <div className="relative h-56 bg-muted/30 overflow-hidden flex flex-col">
+                {/* Browser chrome bar */}
+                <div className="flex items-center gap-1.5 px-3 py-2 bg-muted/60 border-b border-border/40 shrink-0 z-10">
+                  <span className="w-2.5 h-2.5 rounded-full bg-red-400" />
+                  <span className="w-2.5 h-2.5 rounded-full bg-yellow-400" />
+                  <span className="w-2.5 h-2.5 rounded-full bg-green-400" />
+                  <span className="flex-1 mx-2 bg-background/70 rounded text-[10px] text-muted-foreground px-2 py-0.5 truncate border border-border/30">
+                    {project.liveUrl ?? `github.com/davidxavier421-byte`}
+                  </span>
+                  {/* Links */}
+                  <div className="flex items-center gap-1.5 ml-1">
+                    {project.liveUrl && (
+                      <a
+                        href={project.liveUrl}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="w-6 h-6 bg-background/80 backdrop-blur-sm rounded flex items-center justify-center text-foreground hover:text-primary transition-colors"
+                        title="Live Demo"
+                        onClick={(e) => e.stopPropagation()}
+                      >
+                        <Globe className="h-3 w-3" />
+                      </a>
+                    )}
+                    {project.githubUrl && (
+                      <a
+                        href={project.githubUrl}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="w-6 h-6 bg-background/80 backdrop-blur-sm rounded flex items-center justify-center text-foreground hover:text-primary transition-colors"
+                        title="View Code"
+                        onClick={(e) => e.stopPropagation()}
+                      >
+                        <Github className="h-3 w-3" />
+                      </a>
+                    )}
+                  </div>
                 </div>
-                {/* Links */}
-                <div className="absolute top-3 right-3 flex items-center gap-2">
-                  {project.liveUrl && (
-                    <a
-                      href={project.liveUrl}
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      className="w-8 h-8 bg-background/80 backdrop-blur-sm rounded-lg flex items-center justify-center text-foreground hover:text-primary transition-colors"
-                      title="Live Demo"
-                    >
-                      <Globe className="h-4 w-4" />
-                    </a>
-                  )}
-                  {project.githubUrl && (
-                    <a
-                      href={project.githubUrl}
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      className="w-8 h-8 bg-background/80 backdrop-blur-sm rounded-lg flex items-center justify-center text-foreground hover:text-primary transition-colors"
-                      title="View Code"
-                    >
-                      <Github className="h-4 w-4" />
-                    </a>
-                  )}
-                </div>
+
+                {/* Preview area */}
+                {project.liveUrl ? (
+                  <div className="relative flex-1 overflow-hidden">
+                    <iframe
+                      src={project.liveUrl}
+                      title={project.title}
+                      sandbox="allow-scripts allow-same-origin"
+                      loading="lazy"
+                      className="absolute top-0 left-0 origin-top-left pointer-events-none border-none"
+                      style={{ width: "250%", height: "250%", transform: "scale(0.4)" }}
+                    />
+                  </div>
+                ) : (
+                  <div className={`flex-1 relative bg-gradient-to-br ${project.gradient} flex items-center justify-center`}>
+                    <span className={`font-heading text-8xl font-black bg-gradient-to-br ${project.accent} bg-clip-text text-transparent opacity-20 select-none`}>
+                      {project.number}
+                    </span>
+                    <div className={`absolute bottom-3 left-3 w-8 h-8 rounded-lg bg-gradient-to-br ${project.accent} flex items-center justify-center shadow-md`}>
+                      <FolderGit2 className="h-4 w-4 text-white" />
+                    </div>
+                  </div>
+                )}
               </div>
 
               <div className="p-6">
