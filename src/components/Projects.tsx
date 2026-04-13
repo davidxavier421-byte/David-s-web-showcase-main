@@ -18,6 +18,21 @@ const projects = [
     accent: "from-orange-500 to-amber-400",
     number: "01",
   },
+  {
+  title: "FitForge – Gym & Fitness Web App",
+  type: "Personal Project",
+  description:
+    "A fully responsive gym and fitness web app built with React.js + Vite, featuring immersive Three.js 3D dumbbell animation, multi-page routing across Home, Programs, Trainers, Pricing, and Contact. Includes EmailJS integration for direct contact form submissions, WhatsApp Business API for instant inquiries, a billing toggle with 15% annual discount, and a cyberpunk-inspired dark UI with neon accents — no backend required.",
+  tech: ["React.js", "Vite", "Three.js", "EmailJS", "WhatsApp API", "Tailwind CSS"],
+  role: "Full Stack Developer",
+  roleDetail:
+    "Designed and built the entire application independently — 3D animations, UI/UX, multi-page routing, pricing logic, EmailJS contact form, and WhatsApp integration.",
+  liveUrl: "https://fitforge12.netlify.app/",
+  githubUrl: "https://github.com/davidxavier421-byte",
+  gradient: "from-cyan-500/10 to-green-500/10",
+  accent: "from-cyan-400 to-green-400",
+  number: "02",
+},
     {
     title: "D Ai — Neural AI Chatbot",
     type: "Personal Project",
