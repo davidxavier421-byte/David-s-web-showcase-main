@@ -4,21 +4,7 @@ import { ExternalLink, Github, FolderGit2, Globe } from "lucide-react";
 import { Badge } from "@/components/ui/badge";
 
 const projects = [
-  {
-    title: "DXplore – Travel Agency Web App",
-    type: "Personal Project",
-    description:
-      "A fully responsive travel agency web app built with React.js + Vite and Tailwind CSS, featuring 30+ curated tour packages across India and the world. Includes a Standard/Luxury pricing toggle, direct WhatsApp Business API integration for instant booking inquiries, and smooth page transitions — no backend required.",
-    tech: ["React.js", "Vite", "Tailwind CSS", "WhatsApp API"],
-    role: "Full Stack Developer",
-    roleDetail: "Designed and built the entire application independently — UI, routing, package data, pricing toggle, and WhatsApp integration.",
-    liveUrl: "https://dxplore.vercel.app/",
-    githubUrl: "https://github.com/davidxavier421-byte",
-    gradient: "from-orange-500/10 to-amber-500/10",
-    accent: "from-orange-500 to-amber-400",
-    number: "01",
-  },
-  {
+   {
   title: "FitForge – Gym & Fitness Web App",
   type: "Personal Project",
   description:
@@ -31,8 +17,23 @@ const projects = [
   githubUrl: "https://github.com/davidxavier421-byte",
   gradient: "from-cyan-500/10 to-green-500/10",
   accent: "from-cyan-400 to-green-400",
-  number: "02",
+  number: "01",
 },
+  {
+    title: "DXplore – Travel Agency Web App",
+    type: "Personal Project",
+    description:
+      "A fully responsive travel agency web app built with React.js + Vite and Tailwind CSS, featuring 30+ curated tour packages across India and the world. Includes a Standard/Luxury pricing toggle, direct WhatsApp Business API integration for instant booking inquiries, and smooth page transitions — no backend required.",
+    tech: ["React.js", "Vite", "Tailwind CSS", "WhatsApp API"],
+    role: "Full Stack Developer",
+    roleDetail: "Designed and built the entire application independently — UI, routing, package data, pricing toggle, and WhatsApp integration.",
+    liveUrl: "https://dxplore.vercel.app/",
+    githubUrl: "https://github.com/davidxavier421-byte",
+    gradient: "from-orange-500/10 to-amber-500/10",
+    accent: "from-orange-500 to-amber-400",
+    number: "02",
+  },
+ 
     {
     title: "D Ai — Neural AI Chatbot",
     type: "Personal Project",
@@ -45,7 +46,7 @@ const projects = [
     githubUrl: "https://github.com/davidxavier421-byte",
     gradient: "from-violet-500/10 to-purple-500/10",
     accent: "from-violet-500 to-purple-400",
-    number: "02",
+    number: "03",
   },
   {
     title: "BlessaTexports – Textile Website",
@@ -59,7 +60,7 @@ const projects = [
     githubUrl: "https://github.com/davidxavier421-byte",
     gradient: "from-indigo-500/10 to-blue-500/10",
     accent: "from-indigo-500 to-blue-400",
-    number: "03",
+    number: "04",
   },
   {
     title: "Real Estate Management System",
@@ -73,7 +74,7 @@ const projects = [
     githubUrl: "https://github.com/davidxavier421-byte",
     gradient: "from-blue-500/10 to-cyan-500/10",
     accent: "from-blue-500 to-cyan-400",
-    number: "04",
+    number: "05",
   },
   
   
