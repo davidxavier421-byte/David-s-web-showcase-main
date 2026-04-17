@@ -28,7 +28,7 @@ const projects = [
   role: "Full Stack Developer",
   roleDetail:
     "Designed and built the entire application independently — 3D animations, UI/UX, multi-page routing, pricing logic, EmailJS contact form, and WhatsApp integration.",
-  liveUrl: "https://fitforge12.netlify.app/",
+  liveUrl: "https://fitforge123.netlify.app/",
   githubUrl: "https://github.com/davidxavier421-byte",
   gradient: "from-cyan-500/10 to-green-500/10",
   accent: "from-cyan-400 to-green-400",
