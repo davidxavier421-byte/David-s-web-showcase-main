@@ -19,7 +19,7 @@ const skills: {
       { name: "JavaScript", level: 80, icon: "⚡" },
       { name: "React", level: 75, icon: "⚛️" },
       { name: "TypeScript", level: 70, icon: "🔷" },
-      { name: "Tailwind CSS", level: 75, icon: "💨" },
+      { name: "Tailwind CSS", level: 70, icon: "💨" },
       { name: "Bootstrap", level: 85, icon: "🅱️" },
     ],
   },
