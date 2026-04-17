@@ -6,6 +6,21 @@ import { Badge } from "@/components/ui/badge";
 const projects = [
   
   {
+  title: "DR Resume Builder – Glassy Resume Generator",
+  type: "Personal Project",
+  description:
+    "A fully responsive resume builder web app built with React 19 + Vite and Tailwind CSS 4, featuring a stunning glassmorphism UI with animated liquid blob backgrounds. Users can fill in 7 structured sections — Personal Info, Experience, Education, Skills, Projects, Certifications, and Languages — with live real-time preview switching between Edit and Preview modes. All data auto-saves to localStorage and exports as a clean, print-ready PDF with one click. Zero backend, zero dependencies beyond the browser.",
+  tech: ["React 19", "TypeScript", "Vite", "Tailwind CSS 4", "Framer Motion", "Lucide React"],
+  role: "Full Stack Developer",
+  roleDetail:
+    "Designed and built the entire application independently — glassmorphism UI system, dynamic form sections with add/remove/edit support, live resume preview renderer, localStorage persistence, and browser-native PDF export.",
+  liveUrl: "https://resumebuilder12345.netlify.app/",
+  githubUrl: "https://github.com/davidxavier421-byte",
+  gradient: "from-blue-500/10 to-teal-500/10",
+  accent: "from-blue-500 to-teal-400",
+  number: "01",
+}
+  {
     title: "DXplore – Travel Agency Web App",
     type: "Personal Project",
     description:
@@ -17,7 +32,7 @@ const projects = [
     githubUrl: "https://github.com/davidxavier421-byte",
     gradient: "from-orange-500/10 to-amber-500/10",
     accent: "from-orange-500 to-amber-400",
-    number: "01",
+    number: "02",
   },
     {
   title: "FitForge – Gym & Fitness Web App",
@@ -32,7 +47,7 @@ const projects = [
   githubUrl: "https://github.com/davidxavier421-byte",
   gradient: "from-cyan-500/10 to-green-500/10",
   accent: "from-cyan-400 to-green-400",
-  number: "02",
+  number: "03",
 },
  
     {
@@ -47,7 +62,7 @@ const projects = [
     githubUrl: "https://github.com/davidxavier421-byte",
     gradient: "from-violet-500/10 to-purple-500/10",
     accent: "from-violet-500 to-purple-400",
-    number: "03",
+    number: "04",
   },
   {
     title: "BlessaTexports – Textile Website",
@@ -61,7 +76,7 @@ const projects = [
     githubUrl: "https://github.com/davidxavier421-byte",
     gradient: "from-indigo-500/10 to-blue-500/10",
     accent: "from-indigo-500 to-blue-400",
-    number: "04",
+    number: "05",
   },
   {
     title: "Real Estate Management System",
@@ -75,7 +90,7 @@ const projects = [
     githubUrl: "https://github.com/davidxavier421-byte",
     gradient: "from-blue-500/10 to-cyan-500/10",
     accent: "from-blue-500 to-cyan-400",
-    number: "05",
+    number: "06",
   },
   
   
