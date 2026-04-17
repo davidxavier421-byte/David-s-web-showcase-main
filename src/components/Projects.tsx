@@ -19,7 +19,7 @@ const projects = [
   gradient: "from-blue-500/10 to-teal-500/10",
   accent: "from-blue-500 to-teal-400",
   number: "01",
-}
+},
   {
     title: "DXplore – Travel Agency Web App",
     type: "Personal Project",
