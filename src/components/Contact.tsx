@@ -66,7 +66,7 @@ const Contact = () => {
 
   const socials = [
     { icon: Github, href: "https://github.com/davidxavier421-byte", label: "GitHub" },
-    { icon: Linkedin, href: "https://linkedin.com/in/david-xavier", label: "LinkedIn" },
+    { icon: Linkedin, href: "www.linkedin.com/in/david-xavier-arulappan-872286403", label: "LinkedIn" },
     { icon: MessageCircle, href: "https://wa.me/917845269756?text=Hello%20David%20I%20saw%20your%20portfolio", label: "WhatsApp" },
   ];
 
