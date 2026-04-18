@@ -3,7 +3,7 @@ import { ArrowUp, Github, Linkedin, Mail, MessageCircle, Heart } from "lucide-re
 const Footer = () => {
   const socials = [
     { icon: Github, href: "https://github.com/davidxavier421-byte", label: "GitHub" },
-    { icon: Linkedin, href: "www.linkedin.com/in/david-xavier-arulappan-872286403", label: "LinkedIn" },
+    { icon: Linkedin, href: "https://www.linkedin.com/in/david-xavier-arulappan-872286403", label: "LinkedIn" },
     { icon: MessageCircle, href: "https://wa.me/917845269756", label: "WhatsApp" },
     { icon: Mail, href: "mailto:davidxavier621@gmail.com", label: "Email" },
   ];
