@@ -82,7 +82,7 @@ const Navbar = () => {
             <Github className="h-4 w-4" />
           </a>
           <a
-            href="www.linkedin.com/in/david-xavier-arulappan-872286403"
+            href="https://www.linkedin.com/in/david-xavier-arulappan-872286403"
             target="_blank"
             rel="noopener noreferrer"
             className="w-9 h-9 flex items-center justify-center rounded-lg text-muted-foreground hover:text-foreground hover:bg-muted/60 transition-all duration-200"
