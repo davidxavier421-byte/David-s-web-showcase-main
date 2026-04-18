@@ -164,7 +164,7 @@ const Hero = () => {
                   <Github className="h-4.5 w-4.5" />
                 </a>
                 <a
-                  href="www.linkedin.com/in/david-xavier-arulappan-872286403"
+                  href="https://www.linkedin.com/in/david-xavier-arulappan-872286403"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="w-10 h-10 flex items-center justify-center rounded-xl border border-border hover:border-primary/40 hover:bg-primary/8 text-muted-foreground hover:text-primary transition-all duration-200"
